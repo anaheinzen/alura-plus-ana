@@ -120,16 +120,16 @@ margin-bottom: 0,1em;
 }
 
 .rodape__lista{
-   display: flex
-   justify-content: center
-   list-style-type: none 
-   margin-top: 1em
+   display: flex;
+   justify-content: center;
+   list-style-type: none; 
+   margin-top: 1em;
 
 }
 
 .lista__link{
-   color: var(--branco-principal)
-   margin-left: 1em
+   color: var(--branco-principal);
+   margin-left: 1em;
 
 }
 
@@ -148,3 +148,16 @@ margin-bottom: 0,1em;
    margin: 5em 3em;
 }
 
+
+.lista__link a:hover{
+   color: var(--botao-azul);
+}
+
+.lista__item a:active{
+   color:rgb(91, 22, 155);
+}
+
+.container__botao :hover{
+background-color: aqua;
+color: var(--cor-de-fundo);
+}
